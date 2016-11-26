@@ -15,6 +15,7 @@
 		6B46BF201DE9C71E009B7CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B46BF1E1DE9C71E009B7CA8 /* LaunchScreen.storyboard */; };
 		6B46BF2B1DE9C71F009B7CA8 /* GestureUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BF2A1DE9C71F009B7CA8 /* GestureUnlockTests.m */; };
 		6B46BF361DE9C71F009B7CA8 /* GestureUnlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BF351DE9C71F009B7CA8 /* GestureUnlockUITests.m */; };
+		6B46BF451DE9C7B4009B7CA8 /* HMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B46BF441DE9C7B4009B7CA8 /* HMView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6B46BF311DE9C71F009B7CA8 /* GestureUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B46BF351DE9C71F009B7CA8 /* GestureUnlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureUnlockUITests.m; sourceTree = "<group>"; };
 		6B46BF371DE9C71F009B7CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B46BF431DE9C7B4009B7CA8 /* HMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMView.h; sourceTree = "<group>"; };
+		6B46BF441DE9C7B4009B7CA8 /* HMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6B46BF141DE9C71E009B7CA8 /* AppDelegate.m */,
 				6B46BF161DE9C71E009B7CA8 /* ViewController.h */,
 				6B46BF171DE9C71E009B7CA8 /* ViewController.m */,
+				6B46BF431DE9C7B4009B7CA8 /* HMView.h */,
+				6B46BF441DE9C7B4009B7CA8 /* HMView.m */,
 				6B46BF191DE9C71E009B7CA8 /* Main.storyboard */,
 				6B46BF1C1DE9C71E009B7CA8 /* Assets.xcassets */,
 				6B46BF1E1DE9C71E009B7CA8 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				6B46BF181DE9C71E009B7CA8 /* ViewController.m in Sources */,
 				6B46BF151DE9C71E009B7CA8 /* AppDelegate.m in Sources */,
 				6B46BF121DE9C71E009B7CA8 /* main.m in Sources */,
+				6B46BF451DE9C7B4009B7CA8 /* HMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
